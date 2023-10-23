@@ -45,3 +45,11 @@ color: #ededed;
 transition: .3s;
 text-decoration: none;
 }
+
+
+.navbar a:hover,
+.navbar a.active {
+
+    color: #00abf0
+
+}
