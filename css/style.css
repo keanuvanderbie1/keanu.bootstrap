@@ -25,3 +25,12 @@ body {
     z-index: 100;
 
 }
+
+.logo {
+
+    color: #ededed;
+    font-weight: 700px;
+    font-size: 22;
+    background-color: #081b29;
+
+}
