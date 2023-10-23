@@ -29,8 +29,8 @@ body {
 .logo {
 
     color: #ededed;
-    font-weight: 700px;
-    font-size: 22;
-    background-color: #081b29;
+    font-weight: 600;
+    font-size: 25px;
+    text-decoration: none;
 
 }
