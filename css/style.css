@@ -35,3 +35,13 @@ body {
     text-decoration: none;
 
 }
+
+.navbar {
+
+font-size: 18px;
+font-weight: 500;
+margin-left: 35px;
+color: #ededed;
+transition: .3s;
+
+}
