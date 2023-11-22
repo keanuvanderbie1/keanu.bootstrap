@@ -1,87 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Keanu.dev</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <meta name="keywords" content="Keanu van der Bie, Keanu, VdB Management, VdB Holding">
-    <meta name="author" content="Keanu van der Bie">
-    <meta name="description" content="Web Development - VdB Development">
-    <script src="https://js.stripe.com/v3/"></script>
-    <script src="./script.js" defer></script>
-
-</head>
-<body>
-
-<header class="header" id="home">
-
-    <a href="https://keanuvanderbie1.github.io/keanu.dev" class="logo">Keanu.</a>
-
-   
-    
-<nav class="navbar">
-
-    <a href="./about">About Us</a>
-    <a href="./shop">Shop</a>
-    <a href="./contact">Contact</a>
-    <a href="./login.php">Login</a>
-</nav>
-</a>
-<script>
-    // Smooth scrolling when clicking on navigation links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-
-            const targetId = this.getAttribute('href').substring(1);
-            const target = document.getElementById(targetId);
-
-            if (target) {
-                const targetPosition = target.getBoundingClientRect().top + window.scrollY;
-                window.scrollTo({
-                    top: targetPosition - 50, // Adjust scroll position as needed
-                    behavior: 'smooth'
-                });
-            }
-        });
-    });
-</script>
-    </a>
-
-
-
-</div>
-</header>
-
-<section class="home" id="">
-
-    <div class="home-content">
-    
-    <h1>Hey! I am Keanu</h1>
-    <h3>Front-End developer</h3>
-    <p>We are </p>
-    <div class="btn-box">
-        <a href="#pricing">Hire me!</a>
-        <a href="mailto:s00071@student.pleysier.nl">Let's talk!</a>
-    </div>
-</div>
-    </section>
-
-
-    <script>
-        (function(d,t) {
-          var BASE_URL="https://chat.gameunit.nl";
-          var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-          g.src=BASE_URL+"/packs/js/sdk.js";
-          g.defer = true;
-          g.async = true;
-          s.parentNode.insertBefore(g,s);
-          g.onload=function(){
-            window.chatwootSDK.run({
-              websiteToken: 'nnFax5FqLY7XSpskg4FCX8MF',
-              baseUrl: BASE_URL
-            })
-          }
-        })(document,"script");
-      </script>
+<html>
+  <head>
+    <title>Space Invaders</title>
+    <style>
+      canvas {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+    <script src="script.js"></script>
+  </body>
+</html>
